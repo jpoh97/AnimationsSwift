@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5706E8D2077DE000002BB53 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5706E8C2077DE000002BB53 /* GradientView.swift */; };
+		B5706E8F2077E14B0002BB53 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5706E8E2077E14B0002BB53 /* InstagramViewController.swift */; };
+		B5706E922078023F0002BB53 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5706E912078023F0002BB53 /* CustomTableViewCell.swift */; };
+		B5706E9420780FF00002BB53 /* InstagramViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5706E9320780FF00002BB53 /* InstagramViewControllerExtension.swift */; };
+		B5706E962078248F0002BB53 /* EmitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5706E952078248F0002BB53 /* EmitterViewController.swift */; };
+		B5706E982078270F0002BB53 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5706E972078270F0002BB53 /* Emitter.swift */; };
+		B5706E9A20783C7B0002BB53 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5706E9920783C7B0002BB53 /* RadialGradientView.swift */; };
+		B571379320751A8E000CC454 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571379220751A8E000CC454 /* RoundView.swift */; };
+		B5713795207522F8000CC454 /* RateFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5713794207522F8000CC454 /* RateFoodViewController.swift */; };
+		B571379720755DB6000CC454 /* AnimationBounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571379620755DB6000CC454 /* AnimationBounceViewController.swift */; };
+		B5945BC8207585D600A9078A /* FlipOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5945BC7207585D600A9078A /* FlipOverViewController.swift */; };
 		B5CD63D42073ED0400F114FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD63D32073ED0400F114FB /* AppDelegate.swift */; };
 		B5CD63D62073ED0400F114FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD63D52073ED0400F114FB /* ViewController.swift */; };
 		B5CD63D92073ED0400F114FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD63D72073ED0400F114FB /* Main.storyboard */; };
 		B5CD63DB2073ED0400F114FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CD63DA2073ED0400F114FB /* Assets.xcassets */; };
 		B5CD63DE2073ED0400F114FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD63DC2073ED0400F114FB /* LaunchScreen.storyboard */; };
+		B5CD63E62073F6C100F114FB /* BottonMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD63E52073F6C100F114FB /* BottonMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5706E8C2077DE000002BB53 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B5706E8E2077E14B0002BB53 /* InstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		B5706E912078023F0002BB53 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B5706E9320780FF00002BB53 /* InstagramViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewControllerExtension.swift; sourceTree = "<group>"; };
+		B5706E952078248F0002BB53 /* EmitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterViewController.swift; sourceTree = "<group>"; };
+		B5706E972078270F0002BB53 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
+		B5706E9920783C7B0002BB53 /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
+		B571379220751A8E000CC454 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		B5713794207522F8000CC454 /* RateFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateFoodViewController.swift; sourceTree = "<group>"; };
+		B571379620755DB6000CC454 /* AnimationBounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBounceViewController.swift; sourceTree = "<group>"; };
+		B5945BC7207585D600A9078A /* FlipOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipOverViewController.swift; sourceTree = "<group>"; };
 		B5CD63D02073ED0400F114FB /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CD63D32073ED0400F114FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CD63D52073ED0400F114FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,7 @@
 		B5CD63DA2073ED0400F114FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CD63DD2073ED0400F114FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5CD63DF2073ED0400F114FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CD63E52073F6C100F114FB /* BottonMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottonMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5706E8B2077DDD00002BB53 /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+				B5706E9920783C7B0002BB53 /* RadialGradientView.swift */,
+				B5706E8C2077DE000002BB53 /* GradientView.swift */,
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
 		B5CD63C72073ED0400F114FB = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +87,23 @@
 		B5CD63D22073ED0400F114FB /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				B5706E8B2077DDD00002BB53 /* Designable */,
 				B5CD63D32073ED0400F114FB /* AppDelegate.swift */,
 				B5CD63D52073ED0400F114FB /* ViewController.swift */,
 				B5CD63D72073ED0400F114FB /* Main.storyboard */,
 				B5CD63DA2073ED0400F114FB /* Assets.xcassets */,
 				B5CD63DC2073ED0400F114FB /* LaunchScreen.storyboard */,
 				B5CD63DF2073ED0400F114FB /* Info.plist */,
+				B5CD63E52073F6C100F114FB /* BottonMenuViewController.swift */,
+				B571379220751A8E000CC454 /* RoundView.swift */,
+				B5713794207522F8000CC454 /* RateFoodViewController.swift */,
+				B571379620755DB6000CC454 /* AnimationBounceViewController.swift */,
+				B5945BC7207585D600A9078A /* FlipOverViewController.swift */,
+				B5706E8E2077E14B0002BB53 /* InstagramViewController.swift */,
+				B5706E912078023F0002BB53 /* CustomTableViewCell.swift */,
+				B5706E9320780FF00002BB53 /* InstagramViewControllerExtension.swift */,
+				B5706E952078248F0002BB53 /* EmitterViewController.swift */,
+				B5706E972078270F0002BB53 /* Emitter.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -136,8 +180,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5706E8F2077E14B0002BB53 /* InstagramViewController.swift in Sources */,
 				B5CD63D62073ED0400F114FB /* ViewController.swift in Sources */,
+				B571379320751A8E000CC454 /* RoundView.swift in Sources */,
+				B5706E8D2077DE000002BB53 /* GradientView.swift in Sources */,
+				B5713795207522F8000CC454 /* RateFoodViewController.swift in Sources */,
+				B571379720755DB6000CC454 /* AnimationBounceViewController.swift in Sources */,
+				B5706E922078023F0002BB53 /* CustomTableViewCell.swift in Sources */,
+				B5706E962078248F0002BB53 /* EmitterViewController.swift in Sources */,
+				B5CD63E62073F6C100F114FB /* BottonMenuViewController.swift in Sources */,
+				B5706E9420780FF00002BB53 /* InstagramViewControllerExtension.swift in Sources */,
 				B5CD63D42073ED0400F114FB /* AppDelegate.swift in Sources */,
+				B5706E982078270F0002BB53 /* Emitter.swift in Sources */,
+				B5945BC8207585D600A9078A /* FlipOverViewController.swift in Sources */,
+				B5706E9A20783C7B0002BB53 /* RadialGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
